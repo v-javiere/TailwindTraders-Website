@@ -12,7 +12,7 @@ env:
   CI: false
   AZURE_WEBAPP_NAME: demoa0fc6  # set this to your application's name
   AZURE_WEBAPP_PACKAGE_PATH: ${{ github.workspace }}\TailwindTraders-Website-Drop   
-  AZURE_WEBAPP_PROJECT_PATH: TailwindTraders.Website\Source\Tailwind.Traders.Web\Tailwind.Traders.Web.csproj    
+  AZURE_WEBAPP_PROJECT_PATH: ..\TailwindTraders.Website\Source\Tailwind.Traders.Web\Tailwind.Traders.Web.csproj    
 jobs:
   build:
     runs-on: windows-latest
